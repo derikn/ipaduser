@@ -1,37 +1,46 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-bottom: 20px;
+  background-color: #2c3e50;
 }
 
-.jumbobg {
-	background-image: url(http://ipadusergroup.ca/img/jumbopg.jpeg);  padding-bottom: 20px;
-	z-index:1;
+
+.topstrip {
+	width: 100%;
+	padding: 10px;
+	position:absolute;
+	top:0;
+	background-color:#16a085;
 }
 
+.bottomstrip {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+	background-color:#c0392b;
+}
 
 .content {
-	width: 1045px;
-	padding-right:25px;
-	padding-left:25px;
-	padding-top:50px;
- 	float: none;
-    margin: 0 auto;
-    color:#FFF;
-    -webkit-font-smoothing: antialiased;
-    line-height: 0.5;
-}
-.hero-row{
-	text-shadow: 1px -1px 7px rgba(0,0,0,2);
-}
-#blob-bg {
-	display: none;
-	width: 600px;
-	height: 180px;
-	position: absolute;
-	left: 50%;
-	margin-left: -510px;
-	margin-top: -25px;
-	background: url(https://a0.muscache.com/airbnb/static/landing_pages/home_v2/homepage-sprite-54617e9d9dbd7f5e375a5667bb7a393f.png) 0px 0px no-repeat;
-	z-index: -1;
+	padding-top:100px;
+	color: #FFF;
+	font-family: 'Arvo', serif;
+	margin: 0 auto;
 
+}
+#title {
+	width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+}
+h2{
+	font-size: 40px;
+}
+h3 {
+	color: #7f8c8d;
+	font-size: 15px;
 }
