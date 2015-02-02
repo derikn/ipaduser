@@ -1,0 +1,2 @@
+# ipaduser
+static for ipadusergroup
