@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<title>Responsive Sticky Footer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style type="text/css">	
+html, body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+}
+.wrapper {
+	display: table;
+	height: 100%;
+}
+.block {
+	display: table-row;
+	height: 1px;
+}
+.push {
+	height: auto;
+}
+/*
+
+	Demo Styles
+
+*/
+html, body {
+	margin:0;
+    padding:0;
+}
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+.block:nth-child(odd) {
+	background: #ccc;
+}
+h1, h2, p {
+	font-weight: normal;
+	line-height: 150%;
+	padding: 0 50px;
+}
+</style>
+</head>
+<body>
+	<section class="container">
+		<header class="block">
+			<h1>Responsive Sticky Footer</h1>
+		</header>
+		<div class="block push">
+			<p>Quisque ut diam nibh, non elementum leo. Suspendisse potenti. Aliquam convallis, dolor eu ultricies rutrum.</p>
+			<p><a href="http://timothy-long.com/responsive-sticky-footer/">Return to article.</a></p>
+		</div>
+		<footer class="block">
+			<h2>The Sticky Footer</h2>
+			<p>Morbi vitae dolor vel ipsum laoreet vehicula ac a nunc. Aliquam cursus fermentum nulla sit amet commodo.</p>
+		</footer>
+	</section>
+</body>
+</html>
